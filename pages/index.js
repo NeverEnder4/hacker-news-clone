@@ -31,7 +31,7 @@ export default class Index extends React.Component {
       >
         <StoryList stories={stories} />
         <footer>
-          <Link href={`/?page=${page + 1}`}>
+          <Link as={`p=${page + 1}`} href={`/?page=${page + 1}`}>
             <a>Next Page ({page + 1})</a>
           </Link>
         </footer>
