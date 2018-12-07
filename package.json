@@ -5,8 +5,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
-    "start": "set NODE_ENV=production && node server.js",
-    "build": "next build"
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
+    "deploy": "now --public"
   },
   "author": "Tony Pettigrew",
   "license": "ISC",
